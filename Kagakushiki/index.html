@@ -10,10 +10,15 @@
         align-items: center; /* 垂直中心 */
         justify-content: center;
       }
-      strong:after {
+      strong:before,strong:after {
         border-top: 1px solid;
         content: "";
         width: 3em;
+      }
+      strong:before {
+        margin-right: 1em; 
+      }
+      strong:after {
         margin-left: 1em; 
       }
       </style>
